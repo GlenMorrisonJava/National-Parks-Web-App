@@ -1,0 +1,221 @@
+﻿header{
+	background-color: #13784c;
+}
+
+body{
+	font-family: Helvetica, Sans-Serif;
+    color: #444444;
+    font-size: 9pt;
+	background-color: lightGrey;
+	padding: 0;
+	margin: 0;
+}
+
+#logo {
+	height: 100px;
+	width:auto;
+}
+
+nav{
+	background-color: #0c4f32;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 40px;
+	padding:0;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	text-shadow: 
+	6px 3px 5px black;	
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+}
+
+nav ul li{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #4fb480;
+}
+
+.parks {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+}
+
+#park {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	border-bottom: 2px solid black;
+	
+}
+
+#park ul {
+	list-style: none;
+}
+
+#name {
+	color: black;
+	font-size: 35px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-shadow: 
+	6px 3px 5px #909090;
+	
+}
+
+#description {
+	font-size: 20px;
+	
+}
+
+.info {
+	padding-left: 30px;
+	margin: 0;
+	
+}
+
+#park img {
+	margin-left: 20px;
+	height: 280px;
+	width: 345px;
+	border-top: 10px solid #f5f5f5;
+	border-left: 10px solid #f5f5f5;
+	border-right: 10px solid #f5f5f5;
+	border-bottom: 70px solid #f5f5f5;
+	box-shadow: 1px 1px 1px 1px hsl(0, 0%, 0%),
+	12px 12px 15px 2px #515151;
+	
+	
+	
+}
+
+.weather{
+	display: flex;	
+	list-style: none;
+	margin: 0;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	background-color: white;
+	
+
+}
+
+ul{
+	list-style: none;
+}
+
+#today{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-right: 150px;
+}
+#otherDays{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#otherDays img{
+	height: 175px;
+	width: auto;
+	
+}
+
+#highLow{
+	display: flex;
+	padding-bottom: 20px;
+	
+}
+
+#highLow li{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#advisory{
+	width: 200px;
+	text-align: center;
+}
+
+#dayTitle{
+	font-weight: bold;
+	font-size: 20px;
+	z-index: +1;
+	position: relative;
+}
+
+#today img{
+	margin-top: -15px;
+}
+
+.parkDisplay {
+	padding: 30px;
+	margin: 0;
+	
+}
+.parkDisplay img{
+	width: 100%;
+	height: 75vh;
+}
+
+#parkName{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.parkDisplay li{
+	padding-bottom: 15px;
+}
+
+#surveyBody{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+.formBody{
+	padding-bottom: 30px;
+}
+
+.favoriteTable img{
+	height: 100px;
+	width: auto;
+	
+}
+
+#count {
+	text-align: center;
+}
+
+.favoriteTable td{
+	padding: 20px;
+}
+
+#converterButton{
+	padding-bottom: 10px;
+	
+}
